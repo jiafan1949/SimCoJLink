@@ -151,7 +151,7 @@ STM32G071RB的官方开发板NUCLEO-G071RB，内核为Cortex-M0。
 
 <font color=red>作者实际测试电路板硬件修改情况</font>
 
--   NUCLEO-G474RE :去除R9，R10，R13，R18。JP5选5V\_PWR，JLink连接CN4。USB端口供电。
+-   NUCLEO-G474RE : 去除R9，R10，R13，R18。JP5选5V\_PWR，JLink连接CN4。USB端口供电。
 
 -   NUCLEO-G071RB :
     去除R24电阻，JP2选择CHG，USB插上供电电源，只负责供电。JLink按照线序连接CN11。
