@@ -132,8 +132,8 @@ SimCoJLink Transmit 总共有两个参数，都是默认参数，不可修改。
 
 ![查看Simulink库](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_LibPS.png)
 
-1.  将所提供的安装包中的JLink_x64.dll文件拷贝到MATLAB安装目录下的$\backslash bin\backslash win64$下，方便运行的时候查找该dll文件。\
-    例如在作者电脑上的目录是:$C:\backslash Program Files\backslash Polyspace\backslash 2020b\backslash bin\backslash  win64$。
+1.  将所提供的安装包中的JLink_x64.dll文件拷贝到MATLAB安装目录下的"\bin\win64"下，方便运行的时候查找该dll文件。\
+    例如在作者电脑上的目录是:"C:\Program Files\Polyspace\2020b\bin\win64"。
 
 2.  将所提供安装包内的SimCoJLink_SimulinkLib文件夹添加到MATLAB的搜索目录。见(图)
 
