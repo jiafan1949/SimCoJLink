@@ -42,14 +42,14 @@ JLink Target Core。
 -   <font color=blue>JLink Target Core</font>:
     MCU的核心类型，根据MCU的数据手册选择，例如Cortex-M4,Cortex-M3,Cortex-M0等等。
 
-![SimCoJLink SET 参数界面](SimCoJLink_SET.png){width="80%"}
+![SimCoJLink SET 参数界面](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_SET.png){width="80%"}
 
 ## SimCoJLink Receive
 
 SimCoJLink
 Receive是按照设置的采样时间去处理信号，例如设置0.1s，那么每隔0.1s将处理刷新一次数据，这种特殊的信号刷新方式需要更改Simulink示波器模块的设置为，<font color=red>列作为通道(基于帧)</font>。在0.1s时间接收到的所有数据中，应该以$"TT:"$三个字符开始，后面跟上的是所有的数据，最后再加上帧尾的字符串$"ET!"$。具体的MCU端发送逻辑可参考提供的示例。
 
-![SimCoJLink Receive 参数界面](SimCoJLink_Receive.png)
+![SimCoJLink Receive 参数界面](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_Receive.png)
 
 SimCoJLink Receive总共有五个参数可以设置，Frame Header, Frame
 Terminator, Data Type, Data Size, Block Sample Time(s)。
@@ -117,7 +117,7 @@ SimCoJLink Transmit 总共有两个参数，都是默认参数，不可修改。
 -   <font color=blue>Block Sample
     Time(s)</font>:参数默认是-1，该参数设置的模块的执行周期，-1代表的是从前面输入的模块继承采样时间。前面模块的采样时间是多少，该模块采样时间和它相等。
 
-![SimCoJLink Transmit 参数界面](SimCoJLink_Transmit.png)
+![SimCoJLink Transmit 参数界面](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_Transmit.png)
 
 -   <font color=red>发送模块执行频率不可比接收模块执行频率高！可以相等。</font>
 
@@ -128,9 +128,9 @@ SimCoJLink Transmit 总共有两个参数，都是默认参数，不可修改。
 
 ## SimCoJLink安装步骤
 
-![MATLAB添加搜索目录步骤](AddDirPS.png)
+![MATLAB添加搜索目录步骤](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/AddDirPS.png)
 
-![查看Simulink库](SimCoJLink_LibPS.png)
+![查看Simulink库](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_LibPS.png)
 
 1.  将所提供的安装包中的JLink_x64.dll文件拷贝到MATLAB安装目录下的$\backslash bin\backslash win64$下，方便运行的时候查找该dll文件。\
     例如在作者电脑上的目录是:$C:\backslash Program Files\backslash Polyspace\backslash 2020b\backslash bin\backslash  win64$。
@@ -162,11 +162,11 @@ STM32G071RB的官方开发板NUCLEO-G071RB，内核为Cortex-M0。
 
 1.  将作者提供包中SGEEER_MCU目录的文件,见图 ,拷入工程，并添加头文件搜索目录。
 
-    ![RAM大小设置](RTT_RAM.png)
+    ![RAM大小设置](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/RTT_RAM.png)
 
 2.  设置用来传输信号的RAM大小。<font color=red>在SEGGER_RTT_Conf.h文件95行与99行</font>。该内存大小是MCU用来暂存发送和接收数据的内存区域，理论上是越大越好。因MCU发送到PC速度较快，占用内存相对设置大点，默认可以设置1024Byte。PC发送到MCU，速度较慢，可以设置相对小，设置三倍或者五倍实际每帧数据大小即可，默认设置128Byte。见图。
 
-    ![初始化函数](RTT_Init.png)
+    ![初始化函数](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/RTT_Init.png)
 
 3.  初始化相关的结构体与内存等。<font color=red>在开始发送和接收数据之前初始化</font>。调用图中两个函数。
 
