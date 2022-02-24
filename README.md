@@ -348,4 +348,4 @@ STM32G071RB的官方开发板NUCLEO-G071RB，内核为Cortex-M0。
 
 # 广告
 
-如果对[Simulink代码生成与电机控制](https://item.taobao.com/item.htm?spm=a230r.1.14.39.7b7964ach4MYTv&id=650785163641&ns=1&abbucket=20#detail)感兴趣，侧重永磁FOC方向，可以查看链接。
+如果对[Simulink代码生成与电机控制](https://item.taobao.com/item.htm?spm=a230r.1.14.39.7b7964ach4MYTv&id=650785163641&ns=1&abbucket=20#detail)感兴趣，侧重永磁无感FOC方向，可以查看链接。
