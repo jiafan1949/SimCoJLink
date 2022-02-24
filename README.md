@@ -1,4 +1,5 @@
-
+## ReadmeFig文件夹是图床，只是用来显示README文件。
+## README.md是github的说明书文件。
 # 齐天大圣的哥哥(淘宝店铺/B站/知乎同名)
 
 本文介绍SimCoJLink工具的开发背景、使用方法以及注意事项。SimCoJLink是在Simulink环境下的一组JLink驱动模块，利用JLink调试器盒子快速读写ARM系MCU的数据，并且不占用任何额外引脚与CPU时间，下发参数和上传信号只是将数据拷贝到指定内存位置即可。JLink
@@ -7,7 +8,7 @@ V9也最高支持400KB/s，完全能够胜任电机控制的算法调试需求�
 <font color=red>该工具只提供编译文件，不提供源代码，也不会收费，另该驱动每次运行会输出一条广告。</font>
 
 按照载波频率20kHz上传变量，假设上传4个浮点数据，传输的带宽为
-$$20e3*4*4Byte/s = 320e3Byte/s /1024 = 312.5KB/s$$
+"20e3*4*4Byte/s = 320e3Byte/s /1024 = 312.5KB/s"
 
 # SimCoJLink介绍
 
