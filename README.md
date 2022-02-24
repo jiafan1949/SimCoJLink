@@ -42,7 +42,7 @@ JLink Target Core。
 -   <font color=blue>JLink Target Core</font>:
     MCU的核心类型，根据MCU的数据手册选择，例如Cortex-M4,Cortex-M3,Cortex-M0等等。
 
-![SimCoJLink SET 参数界面](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_SET.png){width="80%"}
+![SimCoJLink SET 参数界面](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/SimCoJLink_SET.png)
 
 ## SimCoJLink Receive
 
