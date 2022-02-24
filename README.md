@@ -16,7 +16,6 @@ SimCoJLink库共有三个模块: SimCoJLink SET，SimCoJLink
 Transmit，SimCoJLink
 Receive。分别是对SimCoJLink进行相关设置，发送数据到MCU，读取MCU上传数据的模块。
 
-
 # SimCoJLink使用方法
 
 ## SimCoJLink SET
