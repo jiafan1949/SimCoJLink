@@ -1,5 +1,5 @@
 ## ReadmeFig文件夹是图床，只是用来显示README文件。
-## README.md是github的说明书文件。
+## 软件版本 MATLAB_2020B, Keil MDK 5.31
 # 齐天大圣的哥哥(淘宝店铺/B站/知乎同名)
 
 本文介绍SimCoJLink工具的开发背景、使用方法以及注意事项。SimCoJLink是在Simulink环境下的一组JLink驱动模块，利用JLink调试器盒子快速读写ARM系MCU的数据，并且不占用任何额外引脚与CPU时间，下发参数和上传信号只是将数据拷贝到指定内存位置即可。JLink
@@ -349,6 +349,4 @@ STM32G071RB的官方开发板NUCLEO-G071RB，内核为Cortex-M0。
 
 # 广告
 
-如果对《Simulink代码生成与电机控制》感兴趣，可以手机淘宝扫描下方二维码进入店铺查看，<font color=red>店铺名称：齐天大圣的哥哥</font>。
-
-![image](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/taobao.png)
+如果对[Simulink代码生成与电机控制](https://item.taobao.com/item.htm?spm=a230r.1.14.39.7b7964ach4MYTv&id=650785163641&ns=1&abbucket=20#detail)感兴趣，侧重永磁FOC方向，可以查看链接。
