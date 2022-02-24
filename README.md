@@ -350,4 +350,4 @@ STM32G071RB的官方开发板NUCLEO-G071RB，内核为Cortex-M0。
 
 如果对《Simulink代码生成与电机控制》感兴趣，可以手机淘宝扫描下方二维码进入店铺查看，<font color=red>店铺名称：齐天大圣的哥哥</font>。
 
-![image](https://github.com/jiafan1949/FigureReadme/taobao.png)
+![image](https://github.com/jiafan1949/SimCoJLink/blob/main/ReadmeFig/taobao.png)
