@@ -28,13 +28,11 @@ JLink Target Core。
     JLink调试接口选择，根据电路的连接,选择常用的SWD或者JTAG
 
 -   JLink RTT Block
-    Search(自动搜索MCU内负责上传和下发数据的指定内存地址)
+    Search(<font color =red>搜索MCU内_SEGGER_RTT结构体地址</font>，即MCU内交互内存)
 
-    -   <font color=blue>Start Search Address(HEX)</font>：设置RTT
-        Block开始搜索的起始地址，可以直接设置MCU的RAM起始内存地址，必须是$0x$开头的16进制。
-
+    -   <font color=blue>Start Search Address(HEX)</font>：开始搜索的起始内存地址，可以直接设置MCU的RAM起始内存地址，必须是$0x$开头的16进制。
     -   <font color=blue>RTT Search
-        Length(HEX)</font>:内存搜索的最大长度，必须是$0X$开头的16进制，最大值是$0X20000$，超过这个最大值设置会报错。
+        Length(HEX)</font>:内存搜索的最大长度，必须是$0x$开头的16进制，最大值是$0x20000$，超过这个最大值设置会报错。
 
 -   <font color=blue>JLink
     Speed(KHz)</font>:JLink与MCU交互接口的频率，默认是50000KHz，可以不用修改，如果无法支持这个频率，JLink驱动会自动降低。最大设置80000，必须是正整数。
@@ -121,8 +119,7 @@ SimCoJLink Transmit 总共有两个参数，都是默认参数，不可修改。
 
 -   <font color=red>发送模块执行频率不可比接收模块执行频率高！可以相等。</font>
 
--   <font color=red>发送帧末尾的2Byte数据是校验值</font>，校验方法和Modbus
-    RTU的CRC16计算方法相同，MCU端示例代码有此校验函数代码。
+-   <font color=red>发送帧末尾的2Byte数据是校验值，只校验实际传送的变量，不包含帧头。</font>校验方法和Modbus RTU的CRC16计算方法相同，MCU端示例代码有此校验函数代码。
 
 # SimCoJLink安装与示例
 
