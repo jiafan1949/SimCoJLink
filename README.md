@@ -1,5 +1,6 @@
 ## ReadmeFig文件夹是图床，只是用来显示README文件。
 ## 软件版本 Win10, MATLAB_2020B, Keil MDK 5.31
+## 测试过的JLink版本 V9, V10, V11, Pro
 # 齐天大圣的哥哥(淘宝店铺/B站/知乎同名)
 
 本文介绍SimCoJLink工具的开发背景、使用方法以及注意事项。SimCoJLink是在Simulink环境下的一组JLink驱动模块，利用JLink调试器盒子快速读写ARM系MCU的数据，并且不占用任何额外引脚与CPU时间，下发参数和上传信号只是将数据拷贝到指定内存位置即可。JLink
