@@ -1,5 +1,5 @@
 ## ReadmeFig文件夹是图床，只是用来显示README文件。
-## 软件版本 Win10, MATLAB_2020B, Keil MDK 5.31
+## 作者软件版本 Win10, MATLAB_2020B, Keil MDK 5.31
 ## 测试过的JLink版本 V9, V10, V11, Pro
 # 齐天大圣的哥哥(淘宝店铺/B站/知乎同名)
 
