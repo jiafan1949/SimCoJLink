@@ -344,6 +344,3 @@ STM32G071RB的官方开发板NUCLEO-G071RB，内核为Cortex-M0。
         *             3. 降低发送频率和字节数目
         ***************************************************************/
         unsigned SEGGER_RTT_GetAvailWriteSpace (unsigned BufferIndex)
-
-# 广告
-
