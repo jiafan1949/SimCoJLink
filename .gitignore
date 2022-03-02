@@ -6,3 +6,5 @@
 *.map
 *.hex
 NUM4*/*
+SimCoJLink_Example/*
+SimCoJLink_SimulinkLib/*
