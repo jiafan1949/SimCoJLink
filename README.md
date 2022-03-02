@@ -1,7 +1,7 @@
 ## ReadmeFig文件夹是图床，只是用来显示README文件。
 ## 作者软件版本 Win10, MATLAB_2020B, Keil MDK 5.31
 ## 测试过的JLink版本 V9, V10, V11, Pro
-# 齐天大圣的哥哥(淘宝店铺/B站/知乎同名)
+# 齐天大圣的哥哥([淘宝店铺](https://item.taobao.com/item.htm?spm=a230r.1.14.39.7b7964ach4MYTv&id=650785163641&ns=1&abbucket=20#detail)/[B站](https://space.bilibili.com/16677465)/[知乎](https://www.zhihu.com/people/king1949)同名)
 如果对[Simulink代码生成与电机控制](https://item.taobao.com/item.htm?spm=a230r.1.14.39.7b7964ach4MYTv&id=650785163641&ns=1&abbucket=20#detail)感兴趣，侧重永磁无感FOC方向，可以查看链接。
 
 本文介绍SimCoJLink工具的开发背景、使用方法以及注意事项。SimCoJLink是在Simulink环境下的一组JLink驱动模块，利用JLink调试器盒子快速读写ARM系MCU的数据，并且不占用任何额外引脚与CPU时间，下发参数和上传信号只是将数据拷贝到指定内存位置即可。JLink
